@@ -100,7 +100,7 @@ export const App = () => {
 
             <p className="panel-tabs has-text-weight-bold">
               <a
-                // data-cy="FilterUser"
+                data-cy="FilterAllUsers"
                 className={cn({
                   'is-active': filterUsers === null,
                 })}
